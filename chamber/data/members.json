@@ -1,0 +1,53 @@
+{
+  "companies": [
+    {
+      "name": "Grupo Bimbo",
+      "address": "Prolongación Paseo de la Reforma 1000, Col. Peña Blanca Santa Fe, Ciudad de México, 01210",
+      "phone": "55-5268 6600",
+      "website": "https://www.grupobimbo.com",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Logo_Grupo_BIMBO.svg/250px-Logo_Grupo_BIMBO.svg.png"
+    },
+    {
+      "name": "Telmex",
+      "address": "Av Marina Nacional #365, Col. Verónica Anzures, Alcadía Miguel Hidalgo, C.P. 11300",
+      "phone": "55-5341-8671",
+      "website": "https://www.telmex.com",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Telmex_Logo.svg/885px-Telmex_Logo.svg.png"
+    },
+    {
+      "name": "Pepsico",
+      "address": "Nte. 59 1100, Industrial Vallejo, Azcapotzalco, 02300 Ciudad de México, CDMX",
+      "phone": "55-5281-2114",
+      "website": "https://www.pepsico.com.mx/",
+      "image_url": "https://www.pepsico.es/images/librariesprovider18/about-the-company/nuestra-historia/pepsico-bebidas.jpg?sfvrsn=9e00feac_0"
+    },
+    {
+      "name": "BBVA Mexico",
+      "address": "Av. P.º de la Reforma 510, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+      "phone": "55 5226 2663",
+      "website": "https://www.bbva.mx",
+      "image_url": "https://1000marcas.net/wp-content/uploads/2019/12/BBVA-logo.png"
+    },
+    {
+      "name": "CEMEX",
+      "address": "Av. Constitución No. 444 Pte. Col. Centro, Monterrey, NL, 64000, México",
+      "phone": "81 8300 1000",
+      "website": "https://www.cemex.com",
+      "image_url": "https://cdn.shopify.com/s/files/1/1803/1043/files/px_1200_x_628_px.png?v=1697578648"
+    },
+    {
+      "name": "Walmart Mexico",
+      "address": "Av. Rodolfo Gaona 647, Periodista, Miguel Hidalgo, 11220 Ciudad de México, CDMX",
+      "phone": "55 2629 6000",
+      "website": "https://www.walmart.com.mx",
+      "image_url": "https://i0.wp.com/rappicard.mx/wp-content/uploads/2025/01/logo-walmart.png?fit=540%2C280&ssl=1"
+    },
+    {
+      "name": "Coca Cola",
+      "address": "Rubén Darío 115, Polanco, Polanco V Secc, Miguel Hidalgo, 11580 Ciudad de México, CDMX",
+      "phone": "55 5262 2000",
+      "website": "https://www.coca-cola.com/mx/es",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coca-Cola_logo.svg/1200px-Coca-Cola_logo.svg.png"
+    }
+  ]
+}

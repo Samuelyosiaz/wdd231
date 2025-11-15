@@ -1,0 +1,61 @@
+@media only screen and (min-width: 38rem){
+    :root{
+    --main-color: #8bd3dd;
+    --secondary-color: #f3d2c1;
+    --text-color: #172c66;
+    --highlight: #fef6e4;
+    --headline: #001858;
+    }
+
+
+    /*******HEADER AND NAVIGATION*******/
+    header { 
+        grid-template-columns: 30px 1fr auto;
+        background-color: var(--main-color);
+        padding: 0;
+    }
+    header:nth-child(4){
+        justify-content: flex-end;
+    }
+    .hamburguer {
+        display: none;
+    }
+    .navigation {
+        display: block;
+        flex-direction: row;
+        border-bottom: 1px solid #ddd;
+        background-color: var(--main-color)
+    }
+    .navigation ul {
+        display: flex;
+    }
+    .navigation a {
+        border-bottom: none;
+    }
+    header img {
+        margin-bottom: .5rem;
+    }
+
+    /***Cards****/
+    #displayedcards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-right: 10rem;
+    padding-left: 10rem;
+    }
+
+
+    /******Footer*******/
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: var(--secondary-color);
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    footer:nth-child(2) {
+        align-self: baseline;
+    }
+    
+    
+}

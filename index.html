@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Samuel Sandoval">
+    <meta property="og:description" content="Home page of the Course to host all the repository">
+    <meta property="og:image" content="https://longviewchamber.com/wp-content/uploads/2023/09/Copy-of-Chamber-of-Commerce-is.in-the-center-of-it-all.png">
+    <meta name="author" content="Samuel Yosiaz Sandoval Ramirez">
+    <title>Main Page Project WDD231</title>
+    <meta name="description" content="Home page of the hole project">
+
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalice.css">
+    <link rel="stylesheet" href="styles/index-small.css">
+    <link rel="stylesheet" href="styles/index-large.css">
+    <script src="scripts/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="site logo" height="10" width="10" id="logo">
+        <span>Samuel Sandoval Ramirez</span>
+        <button id="nav-button" class="hamburguer" aria-label="navigation"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="chamber/directory.html">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section>
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel minima obcaecati suscipit itaque doloribus error quibusdam sapiente nesciunt saepe dolores consectetur quisquam sit blanditiis consequatur aliquam, eius optio vero. Sunt reprehenderit excepturi ipsam iure atque. Modi eaque possimus perspiciatis, consectetur dolorem quisquam, omnis quos eveniet fuga provident labore similique in!</p>
+        </section>
+        <section>
+            <h2>Student Photo</h2>
+            <img src="images/me.jpg" alt="Photo About Me" id="personal">
+        </section>
+        <section>
+            <h2>Web Certificate Courses</h2>
+            <div class="courses">
+            <button type="button" id="AllCourses">All</button><button type="button" id="WddCourses">WDD</button><button type="button" id="CseCourses">CSE</button></div>
+            <div id="filteredcourses"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-icons">
+            <a href="https://www.linkedin.com/in/samuel-yosiaz/" target="_blank" rel="noopener noreferrer">
+<img src="images/linkedin-icon.svg" alt="LinkedIn Profile" class="footer-img"></a>
+<a href="https://github.com/Samuelyosiaz/wdd231.git" target="_blank" rel="noopener noreferrer"><img src="images/github-icon.svg" alt="GitHub Repository" class="footer-img"></a>
+<a href="https://www.facebook.com/samuelyosiaz" target="_blank" rel="noopener noreferrer"><img src="images/fb-icon.svg" alt="Facebook Profile" class="footer-img"></a>
+        </div>
+        <div class="footer-text">
+        <span id="currentyear"> </span>&copy; | Samuel Yosiaz Sandoval Ramírez | México
+        <br><span id="lastModified"></span>
+        </div>
+    </footer>
+</body>
+</html>
