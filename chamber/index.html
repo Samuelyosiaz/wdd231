@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Directory of commerces CDMX">
-    <meta property="og:description" content="Directory of all the commerces in the chamber of commerce of CDMX">
+    <meta property="og:title" content="Home page of the chamber of commerce CDMX">
+    <meta property="og:description" content="welcome to our chamber of commerce in CDMX, we are trying to reach you out with the commer in this community">
     <meta property="og:image" content="https://longviewchamber.com/wp-content/uploads/2023/09/Copy-of-Chamber-of-Commerce-is.in-the-center-of-it-all.png">
     <meta name="author" content="Samuel Yosiaz Sandoval Ramirez">
-    <title>Directory of commerces CDMX</title>
-    <meta name="description" content="Directory of all the commerces in the chamber of commerce of CDMX">
+    <title>Home page of the chamber of commerce CDMX</title>
+    <meta name="description" content="welcome to our chamber of commerce in CDMX, we are trying to reach you out with the commer in this community">
 
     <link rel="icon" href="../images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,9 +16,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/styles/normalice.css">
-    <link rel="stylesheet" href="styles/chambers-small.css">
-    <link rel="stylesheet" href="styles/chambers-large.css">
-    <script src="scripts/chambers.js" defer></script>
+    <link rel="stylesheet" href="styles/index-small.css">
+    <link rel="stylesheet" href="styles/index-large.css">
+    <script src="scripts/index.js" defer></script>
 </head>
 <body>
     <header>
@@ -27,25 +27,38 @@
         <button id="nav-button" class="hamburguer" aria-label="navigation"></button>
         <nav id="nav-bar" class="navigation">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a class="current" href="directory.html">Directory</a></li>
+            <li><a class="current" href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
             <li><a href="#">Join</a></li>
-            <li><a href="#">Discover</a></li>  
+            <li><a href="#">Discover</a></li>
         </ul>
     </nav>
     </header>
     <main>
         <section class="hero">
-            
+            <picture>
+                <source srcset="images/hero-image-large.webp" media="(min-width: 608px)">
+                <img src="images/hero-image-small.webp" alt="Chamber of Commerce CDMX" width="607" loading="lazy">
+            </picture>
+            <button type="button" id="hero-button">Keynote Tickets</button>
         </section>
         <section class="information">
-            
+            <h1>Home</h1>
+            <article class="events">
+                <h2>Events</h2>
+            </article>
+            <article class="current-weather">
+                <h2>Current Weather</h2>
+                <span id="current-weather-info"></span>
+            </article>
+            <article class="weatherforecast">
+                <h2>Weather Forecast</h2>
+                <span id="forecast-weather-info"></span>
+            </article>
         </section>
-    <div class="display-controls">
-        <button type="button" id="grid-list"><img src="images/grid.svg" alt="Grid" class="img-display"></button>
-        <button type="button" id="simple-list"><img src="images/bullet-details.svg" alt="Bullet" class="img-display"></button>
-    </div>
-    <div id="displayedcards"></div>
+        <section class="display-3-commerces">
+            <div id="displayedcards"></div>
+        </section>
     </main>
     <footer>
         <div class="footer-info">

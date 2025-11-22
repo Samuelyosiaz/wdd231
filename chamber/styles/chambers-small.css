@@ -83,7 +83,7 @@ header span {
 }
 
 
-.navigation li.current {
+.navigation a.current {
     background-color: var(--highlight);
 }
 .navigation ul li {
@@ -98,7 +98,9 @@ header span {
     border-bottom: 1px solid #ddd;
 }
 
-/********Display Buttons*******/
+/*******MAIN**********/
+
+/*Display Buttons*/
 main {
     margin-top: 1rem;
 }

@@ -1,0 +1,128 @@
+@media only screen and (min-width: 38rem){
+    :root{
+    --main-color: #8bd3dd;
+    --secondary-color: #f3d2c1;
+    --text-color: #172c66;
+    --highlight: #fef6e4;
+    --headline: #001858;
+    }
+
+
+    /*******HEADER AND NAVIGATION*******/
+    header { 
+        grid-template-columns: 30px 1fr auto;
+        background-color: var(--main-color);
+        padding: 0;
+    }
+    header:nth-child(4){
+        justify-content: flex-end;
+    }
+    .hamburguer {
+        display: none;
+    }
+    .navigation {
+        display: block;
+        flex-direction: row;
+        border-bottom: 1px solid #ddd;
+        background-color: var(--main-color)
+    }
+    .navigation ul {
+        display: flex;
+    }
+    .navigation a {
+        border-bottom: none;
+    }
+    header img {
+        margin-bottom: .5rem;
+    }
+
+   /****Sections*****/
+    .information {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));  
+        gap: 1.5rem;
+        padding: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .information h1 {
+        grid-column: 1 / -1; 
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    /* Remover las asignaciones específicas de grid-column */
+    /* Dejar que auto-fit maneje la distribución */
+    
+    /* Ajustar tamaños para desktop */
+    .current-weather, 
+    .weatherforecast, 
+    .events {
+        margin: 0;
+        padding: 1rem;
+        height: fit-content;
+        min-width: 0; /* Importante para evitar overflow */
+    }
+    
+    #current-weather-info {
+        display: flex;
+        flex-direction: column; /* Cambiar a columna en pantallas medianas */
+        gap: 0.5rem;
+    }
+    
+    #current-weather-info img {
+        width: 60px; 
+        height: 60px;
+        align-self: center;
+    }
+    
+    #current-weather-info div {
+        font-size: 0.85rem; 
+        line-height: 1.2;
+        text-align: center;
+    }
+    
+    #forecast-weather-info p {
+        font-size: 0.9rem;
+        padding: 0.3rem;
+        text-align: center;
+    }
+
+
+
+    /***********THREE CARDS********/
+    .display-3-commerces {
+        margin: 3rem 0;
+        padding: 2rem;
+    }
+    
+    #displayedcards {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        margin: 2rem 0;
+    }
+    
+    .company-card {
+        padding: 1.5rem;
+    }
+    
+    .company-card img {
+        max-width: 150px;
+    }
+
+
+    /******Footer*******/
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: var(--secondary-color);
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    footer:nth-child(2) {
+        align-self: baseline;
+    }
+    
+    
+}

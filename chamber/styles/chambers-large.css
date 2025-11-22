@@ -36,6 +36,8 @@
         margin-bottom: .5rem;
     }
 
+    /********MAIN********/
+
     /***Cards****/
     #displayedcards {
     display: grid;

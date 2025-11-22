@@ -17,6 +17,9 @@ const lastModified = document.querySelector('#lastModified');
 lastModified.innerHTML = `Last Modified: ${document.lastModified}`;
 
 
+
+
+
 //Bottons
 const cardssection = document.querySelector('#displayedcards');
 const gridButton = document.querySelector('#grid-list');
@@ -69,7 +72,7 @@ const displayCards = (companies) => {
         `;
         cardssection.appendChild(table);
     } else {
-        // Vista de grid (con imágenes, sin nombre)
+        // Vista de grid 
         companies.forEach((company) => {
             const card = document.createElement('div');
             card.classList.add('company-card');
