@@ -100,7 +100,7 @@ function displayForecastResults(data) {
     });
     
     // Convertir a array y tomar solo los próximos 3 días
-    const dailyArray = Object.values(dailyTemps).slice(0, 3);
+    const dailyArray = Object.values(dailyTemps).slice(1, 4);
         // Mostrar cada día
     dailyArray.forEach(day => {
         // Calcular temperatura promedio del día

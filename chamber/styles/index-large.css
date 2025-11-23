@@ -28,6 +28,7 @@
     }
     .navigation ul {
         display: flex;
+        font-size: 1.5rem;
     }
     .navigation a {
         border-bottom: none;
@@ -35,6 +36,11 @@
     header img {
         margin-bottom: .5rem;
     }
+    /******HERO*******/
+    #hero-button {
+    font-size: 2rem;
+
+}
 
    /****Sections*****/
     .information {
@@ -48,7 +54,8 @@
     
     .information h1 {
         grid-column: 1 / -1; 
-        text-align: center;
+        text-align: Left;
+        font-size: 3rem;
         margin-bottom: 1rem;
     }
     
@@ -67,7 +74,7 @@
     
     #current-weather-info {
         display: flex;
-        flex-direction: column; /* Cambiar a columna en pantallas medianas */
+        flex-direction: row; /* Cambiar a columna en pantallas medianas */
         gap: 0.5rem;
     }
     
