@@ -63,7 +63,7 @@ header span {
 .hamburguer.show::before {
     content: "\00D7";
     font-size: 1.5rem;
-    font-style: bold;
+    font-weight: bold;
 }
 
 /*********NAVIGATION**********/

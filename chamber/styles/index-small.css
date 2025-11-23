@@ -63,7 +63,7 @@ header span {
 .hamburguer.show::before {
     content: "\00D7";
     font-size: 1.5rem;
-    font-style: bold;
+    font-weight: bold;
 }
 
 /*********NAVIGATION**********/
@@ -140,7 +140,7 @@ header span {
     margin: 0 0 1rem 0;
     padding: 0.5rem;
     background-color: var(--main-color);
-    color: white;
+    color: var(--headline);
     border-radius: 4px;
 }
 
