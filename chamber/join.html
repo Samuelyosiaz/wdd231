@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Join to the chamber of commerce CDMX">
+    <meta property="og:description" content="Fill out a form to join us as a commerce or citizen here in México City">
+    <meta property="og:image" content="https://longviewchamber.com/wp-content/uploads/2023/09/Copy-of-Chamber-of-Commerce-is.in-the-center-of-it-all.png">
+    <meta name="author" content="Samuel Yosiaz Sandoval Ramirez">
+    <title>Join to the chamber of commerce</title>
+    <meta name="description" content="Directory of all the commerces in the chamber of commerce of CDMX">
+
+    <link rel="icon" href="../images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles/normalice.css">
+    <link rel="stylesheet" href="styles/join-small.css">
+    <link rel="stylesheet" href="styles/join-large.css">
+    <script src="scripts/join.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="../images/logo.svg" alt="Chamber of Commerce Logo" height="10" width="10" id="logo">
+        <span>CDMX Chamber of Commerce</span>
+        <button id="nav-button" class="hamburguer" aria-label="navigation"></button>
+        <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a class="current" href="join.html">Join</a></li>
+            <li><a href="#">Discover</a></li>  
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <form action="thankyou.html" method="get" autocomplete="on">
+
+  <!-- Applicant's First Name -->
+  <label>
+    First Name:
+    <input type="text" name="firstName" 
+           title="Applicant's First Name" 
+           autocomplete="given-name" 
+           required>
+  </label>
+
+  <!-- Applicant's Last Name -->
+  <label>
+    Last Name:
+    <input type="text" name="lastName" 
+           title="Applicant's Last Name" 
+           autocomplete="family-name" 
+           required>
+  </label>
+
+  <!-- Applicant's Organizational Title -->
+  <label>
+    Organizational Title:
+    <input type="text" name="orgTitle" 
+           title="Applicant's Organizational Title" 
+           autocomplete="organization-title" 
+           pattern="[A-Za-z\\-\\s]{7,}" 
+           required>
+  </label>
+
+  <!-- Email Address -->
+  <label>
+    Email Address:
+    <input type="email" name="email" 
+           title="Applicant's Email Address" 
+           autocomplete="email" 
+           placeholder="example@domain.com" 
+           required>
+  </label>
+
+  <!-- Mobile Phone Number -->
+  <label>
+    Mobile Phone:
+    <input type="tel" name="mobile" 
+           title="Applicant's Mobile Phone Number" 
+           autocomplete="tel" 
+           required>
+  </label>
+
+  <!-- Business/Organization Name -->
+  <label>
+    Organization Name:
+    <input type="text" name="organization" 
+           title="Business/Organization Name" 
+           autocomplete="organization" 
+           required>
+  </label>
+
+  <!-- Membership Level Selection -->
+  <label>
+    Membership Level:
+    <select name="membership" title="Membership Level" required>
+        <option value="" disabled selected>Select a membership level</option>
+        <option value="np">NP Membership (Non Profit, no fee)</option>
+        <option value="bronze">Bronze Membership</option>
+        <option value="silver">Silver Membership</option>
+        <option value="gold">Gold Membership</option>
+    </select>
+  </label>
+
+  <!-- Business/Organization Description -->
+  <label>
+    Organization Description:
+    <textarea name="orgDescription" 
+              title="Business/Organization Description"></textarea>
+  </label>
+
+  <!-- Timestamp (hidden) -->
+  <input type="hidden" id="timestamp" name="timestamp">
+
+
+  <!-- Submit Button -->
+  <input type="submit" value="Apply">
+</form>
+
+  <!-- Membership Cards -->
+<div class="membership-cards">
+
+  <div class="card">
+    <h3>NP Membership</h3>
+    <p>For non-profit organizations. No fee.</p>
+    <button id="openNp">View Benefits</button>
+  </div>
+
+  <div class="card">
+    <h3>Bronze Membership</h3>
+    <p>Affordable entry-level membership.</p>
+    <button id="openBronze">View Benefits</button>
+  </div>
+
+  <div class="card">
+    <h3>Silver Membership</h3>
+    <p>Enhanced benefits and visibility.</p>
+    <button id="openSilver">View Benefits</button>
+  </div>
+
+  <div class="card">
+    <h3>Gold Membership</h3>
+    <p>Premium benefits and spotlight features.</p>
+    <button id="openGold">View Benefits</button>
+  </div>
+</div>
+
+<!-- NP Membership Dialog -->
+<dialog id="npDialog">
+  <h2>NP Membership Benefits</h2>
+  <ul>
+    <li>Access to community events at no cost</li>
+    <li>Free basic training sessions</li>
+    <li>Networking opportunities with other non-profits</li>
+  </ul>
+  <button id="closeNp">Close</button>
+</dialog>
+
+<!-- Bronze Membership Dialog -->
+<dialog id="bronzeDialog">
+  <h2>Bronze Membership Benefits</h2>
+  <ul>
+    <li>Discounted event tickets (10%)</li>
+    <li>Monthly newsletter with industry updates</li>
+    <li>Listing in member directory</li>
+  </ul>
+  <button id="closeBronze">Close</button>
+</dialog>
+
+<!-- Silver Membership Dialog -->
+<dialog id="silverDialog">
+  <h2>Silver Membership Benefits</h2>
+  <ul>
+    <li>Event discounts (25%)</li>
+    <li>Priority access to training workshops</li>
+    <li>Spotlight advertising on homepage (1 week per year)</li>
+    <li>Invitation to exclusive networking events</li>
+  </ul>
+  <button id="closeSilver">Close</button>
+</dialog>
+
+<!-- Gold Membership Dialog -->
+<dialog id="goldDialog">
+  <h2>Gold Membership Benefits</h2>
+  <ul>
+    <li>Event discounts (50%)</li>
+    <li>Unlimited training sessions</li>
+    <li>Permanent spotlight position on homepage</li>
+    <li>Exclusive VIP events and gala invitations</li>
+    <li>Premium advertising opportunities</li>
+  </ul>
+  <button id="closeGold">Close</button>
+</dialog>
+
+
+    </main>
+    <footer>
+        <div class="footer-info">
+            <strong>CDMX Chamber of Commerce</strong><br>
+            Maestro Larroyo 4<br>
+            Gustavo A Madero, CDMX<br>
+            samilyosiaz@gmail.com<br>
+            56 -842-3307
+        </div>
+        <div class="footer-icons">
+            <a href="https://www.linkedin.com/in/samuel-yosiaz/" target="_blank" rel="noopener noreferrer">
+<img src="../images/linkedin-icon.svg" alt="LinkedIn Profile" class="footer-img"></a>
+<a href="https://github.com/Samuelyosiaz/wdd231.git" target="_blank" rel="noopener noreferrer"><img src="../images/github-icon.svg" alt="GitHub Repository" class="footer-img"></a>
+<a href="https://www.facebook.com/samuelyosiaz" target="_blank" rel="noopener noreferrer"><img src="../images/fb-icon.svg" alt="Facebook Profile" class="footer-img"></a>
+        </div>
+        <div class="footer-text">
+        <span id="currentyear"> </span>&copy; | Samuel Yosiaz Sandoval Ramírez | WDD 231
+        <br><span id="lastModified"></span>
+        </div>
+    </footer>
+</body>
+</html>
