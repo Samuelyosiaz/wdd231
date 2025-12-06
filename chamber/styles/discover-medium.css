@@ -1,0 +1,65 @@
+@media only screen and (min-width: 38rem) {
+    /*******HEADER AND NAVIGATION*******/
+    header { 
+        grid-template-columns: 30px 1fr auto;
+        background-color: var(--main-color);
+        padding: 0;
+    }
+    header:nth-child(4){
+        justify-content: flex-end;
+    }
+    .hamburguer {
+        display: none;
+    }
+    .navigation {
+        display: block;
+        flex-direction: row;
+        border-bottom: 1px solid #ddd;
+        background-color: var(--main-color)
+    }
+    .navigation ul {
+        display: flex;
+        font-size: 1.5rem;
+    }
+    .navigation a {
+        border-bottom: none;
+    }
+    header img {
+        margin-bottom: .5rem;
+    }
+
+
+    #showplaces div{
+
+    grid-template-areas: 
+    "photograph name"
+    "photograph description"
+    "photograph location";
+    }
+    #showplaces div img {
+        width: 300px;
+    }
+
+
+    /***HOVER EFFECT****/
+    #showplaces div {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    #showplaces div:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+        /******Footer*******/
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: var(--secondary-color);
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    footer:nth-child(2) {
+        align-self: baseline;
+    }
+}
