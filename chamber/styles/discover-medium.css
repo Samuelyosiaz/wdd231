@@ -34,7 +34,11 @@
     grid-template-areas: 
     "photograph name"
     "photograph description"
-    "photograph location";
+    "photograph location"
+    "photograph button";
+    }
+    .learn-more-button {
+        grid-area: button;
     }
     #showplaces div img {
         width: 300px;

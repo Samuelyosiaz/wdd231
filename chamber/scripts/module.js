@@ -46,6 +46,12 @@ function displayitems(places) {
         description.innerText = place.description
         thecard.appendChild(description)
 
+        const button = document.createElement('button')
+        button.classList = `learn-more-button`
+        button.innerText = `Learn More`
+
+        thecard.appendChild(button)
+
         showplaces.appendChild(thecard)
 
     })
