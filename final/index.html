@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuarto Dulce Bakery Main Page</title>
+    <meta name="description" content="Cuarto Dulce Bakery">
+    <meta name="author" content="Samuel Yosiaz Sandoval Ramírez">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main-large.css">
+    <script src="scripts/main.js" defer></script> 
+</head>
+<body>
+    <header>
+        <img src="images/logo-horizontal.png" alt="logo" loading="lazy" width="125" height="75">
+        <nav>
+            <button type="button" id="menu"></button>
+            <ul>
+                <li><a href="index.html" id="home">Home</a></li>
+                <li><a href="cakes.html" id="cakes">Cakes</a></li>
+                <li><a href="others.html" id="cookies">Cookies & others</a></li>
+                <li><a href="contactus.html" id="contactus">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="hero">
+            <picture>
+                <source srcset="images/hero-image.jpg" media="(min-width: 420px)">
+                <img src="images/hero-image-small.jpg" alt="Main image" width="420" loading="lazy">
+            </picture>
+            <div id="hero-content">
+                <h1>Homemade cakes made with love and dedication</h1>
+                <a class="general-button" href="contactus.html">Order Now</a>
+            </div>
+        </div>
+        <div id="main-info">
+            <h2>Who are we?</h2>
+            <p>We are a new business dedicated to providing quality products at a great price, always delivering our heart and love for baking with every product.</p>
+        </div>
+        <div id="our-products">
+            <h2>Our products</h2>
+            <section id="our-cakes">
+                <h3>Cakes</h3>
+                <img src="images/cuatro-leches.png" alt="cuatro-leches" width="200" loading="lazy">
+                <p>Delicious variety of fluffy, sweet and juicy cakes with fillings to choose from your favorite flavors</p>
+                <a class="general-button" href="contactus.html">Buy Now</a>
+            </section>
+            <section id="our-cookies">
+                <h3>Cookies and Gellies</h3>
+                <img src="images/crumbl-cookies.png" alt="crumbl-cookies" width="200" loading="lazy">
+                <p>Variety of accompaniments such as cookies with any type of topping and many flavors and mosaics for the gelatins you like the most.</p>
+                <a class="general-button" href="contactus.html">Buy Now</a>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="year">&copy;<span id="currentyear"></span> | Samuel Sandoval Ramírez | México</div>
+        <p id="lastModified"></p>
+        <p><a href="https://www.loom.com/share/43e8667f66a844828653f648bafd4b13">My video</a></p>
+    </footer>
+</body>
+</html>

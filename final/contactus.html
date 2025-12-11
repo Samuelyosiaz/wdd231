@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuarto Dulce Bakery Countact Us Page</title>
+    <meta name="description" content="Cuarto Dulce Bakery Contact Us">
+    <meta name="author" content="Samuel Yosiaz Sandoval Ramírez">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/contactus.css">
+    <link rel="stylesheet" href="styles/contactus-large.css">
+    <script src="scripts/main.js" defer></script> 
+</head>
+<body>
+    <header>
+        <img src="images/logo-horizontal.png" alt="logo" loading="lazy" width="125" height="75">
+        <nav>
+            <button type="button" id="menu"></button>
+            <ul>
+                <li><a href="index.html" id="home">Home</a></li>
+                <li><a href="cakes.html" id="cakes">Cakes</a></li>
+                <li><a href="others.html" id="cookies">Cookies & others</a></li>
+                <li><a href="contactus.html" id="contactus">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Make an order</h1>
+            <form method="get" action="thanks.html">
+                <div>
+                    <legend>Product Name</legend>
+                    <select id="product" name="product" required>
+                        <option disabled selected>Choose a Product...</option>
+                    </select>
+                </div>
+                <div>
+                    <legend>Quantity</legend>
+                    <input type="number" name="quantity" required>
+                </div>
+                <div>
+                    <legend>Delivery Date</legend>
+                    <input type="date" id="installationDate" name="installation" requiered>
+                </div>
+                <div>
+                    <legend>Your Name</legend>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <legend>Your phone number</legend>
+                    <input type="text" id="phone" name="phone" required>
+                </div>
+                <div>
+                    <legend>Would you like to get a decoration? </legend>
+                    <label><input type="radio" id="yesdecoration" name="yesdecoration"> Yes</label>
+                    <label><input type="radio" id="nodecoration" name="nodecoration"> No</label>
+                </div>
+                <div>
+                    <legend>Explain us your decoration<aside>(Optional)</aside></legend>
+                    <input type="textarea" id="review" name="review">
+                </div>
+                <input type="submit" value="Order">
+            </form>
+    </main>
+    <footer>
+        <div class="year">&copy;<span id="currentyear"></span> | Samuel Sandoval Ramírez | México</div>
+        <p id="lastModified"></p>
+        <p><a href="https://www.loom.com/share/43e8667f66a844828653f648bafd4b13">My video</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,162 @@
+[
+    {
+        "id": "crumbl-cookies",
+        "kind": "other",
+        "productName": "Crumbl Cookies",
+        "price": 10,
+        "imgPath": "images/crumbl-cookies.png",
+        "description": "A cookie made with butter that crumbles when touched; its surface is crispy but its interior is soft."
+    },
+    {
+        "id": "cheescake",
+        "kind": "cake",
+        "productName": "Cheescake",
+        "price": 300,
+        "imgPath": "images/cheescake.png",
+        "description": "A dessert made with soft fresh cheese (usually cottage cheese, cream cheese, quark, or ricotta), eggs, and sugar. It may have a base of crushed biscuits (or digestive biscuits), graham crackers, puff pastry, or sometimes sponge cake."
+    },
+    {
+        "id": "four-milks",
+        "kind": "cake",
+        "productName": "4 Milks",
+        "price": 350,
+        "imgPath": "images/cuatro-leches.png",
+        "description": "A Latin American dessert containing evaporated milk, fresh milk, heavy cream, and sweetened condensed milk. It has a very creamy, soft, and sweet consistency."
+    },
+    {
+        "id": "flan",
+        "kind": "other",
+        "productName": "Flan",
+        "price": 150,
+        "imgPath": "images/flan.png",
+        "description": "Dessert of French origin made with a custard whose main ingredients are egg yolks, sometimes a little egg white, whole milk and sugar, which is then refrigerated to obtain a creamy and gelatinous texture."
+    },
+    {
+        "id": "butter-cookies",
+        "kind": "other",
+        "productName": "Butter cookies",
+        "price": 7,
+        "imgPath": "images/galleta-mantequilla.png",
+        "description": "  A popular type of cookie, known for its rich, sweet flavor derived from the generous use of butter. Typical ingredients for shortbread cookies are flour, sugar, salt, and plenty of butter."
+    },
+    {
+        "id": "redvelvet-cookie",
+        "kind": "other",
+        "productName": "RedVelvet cookie",
+        "price": 9,
+        "imgPath": "images/galleta-redvelvet.png",
+        "description": "A fluffy, intensely red cookie, inspired by the classic Red Velvet. Soft on the inside and slightly crisp on the outside, with white chocolate chips that melt into the dough, creating a unique and sophisticated flavor contrast."
+    },
+    {
+        "id": "cinnamon-cookie",
+        "kind": "other",
+        "productName": "Cinnamon cookie",
+        "price": 7,
+        "imgPath": "images/galletas-canela.png",
+        "description": "Made with almonds, oats, and flaxseed, they're ideal for satisfying that craving for a healthy and sweet snack. Made with natural ingredients, without preservatives, dairy, or eggs, they're the perfect healthy and delicious snack for you."
+    },
+    {
+        "id": "chocolate-cookie",
+        "kind": "other",
+        "productName": "Chocolate cookie",
+        "price": 8,
+        "imgPath": "images/galletas-chocolate.png",
+        "description": "It's a delicious cookie that melts in your mouth with unparalleled smoothness. Its tender interior and intoxicating aroma will envelop you in a hug of chocolatey pleasure."
+    },
+    {
+        "id": "fruits-jelly",
+        "kind": "other",
+        "productName": "Fruit's jelly",
+        "price": 130,
+        "imgPath": "images/gelatina-frutas.png",
+        "description": "It consists of a gelatin to which generous amounts of chopped fruit are added. There is freedom and variety in the choice of ingredients, as the use of one fruit or another depends on the season and family traditions."
+    },
+    {
+        "id": "injected-jelly",
+        "kind": "other",
+        "productName": "Injected jelly",
+        "price": 120,
+        "imgPath": "images/gelatina-inyectada.png",
+        "description": "Injected gelatins allow you to explore the artistic side of cooking, as well as providing the opportunity to customize colors, flavors, and designs to suit different occasions or preferences."
+    },
+    {
+        "id": "jelly-wrapped-milk",
+        "kind": "other",
+        "productName": "Jelly wrapped milk",
+        "price": 110,
+        "imgPath": "images/gelatina-leche-envuelta.png",
+        "description": "This gelatin consists of an inner layer of your choice of flavor, and a milk-based gelatin shell that envelops the entire gelatin. Its resulting shape makes it a tasty and elegant option."
+    },
+    {
+        "id": "mosaic-jelly",
+        "kind": "other",
+        "productName": "Mosaic jelly",
+        "price": 90,
+        "imgPath": "images/gelatina-mosaico.png",
+        "description": "Mosaic gelatin contains several colorful cubes of prepared gelatin, which are then mixed with a sweet and creamy gelatin made with milk. This fresh and creamy gelatin can be made with any colors and flavors you prefer."
+    },
+    {
+        "id": "chocolate-bruce-cake",
+        "kind": "cake",
+        "productName": "Chocolate Bruce cake",
+        "price": 280,
+        "imgPath": "images/pastel-chocolate.png",
+        "description": "Delicious chocolate bread with a smooth and creamy chocolate ganache filling. Perfect for satisfying your most sophisticated cravings. Enjoy it as a true luxury with every bite."
+    },
+    {
+        "id": "corn-cake",
+        "kind": "cake",
+        "productName": "Corn cake",
+        "price": 170,
+        "imgPath": "images/pastel-elote.png",
+        "description": "Cornbread, or elote cake, is a type of bread originating in Mexico, made from corn kernels. It gives the dough a yellowish hue and a naturally sweet flavor. Besides being a part of the country's traditional cuisine, it also evokes the Mexican colonial era. It is typically a simple dessert to prepare and is commonly enjoyed."
+    },
+    {
+        "id": "fruits-cake",
+        "kind": "cake",
+        "productName": "Fruit's cake",
+        "price": 170,
+        "imgPath": "images/pastel-frutas.png",
+        "description": "Fruitcake (or English pudding in some Latin American countries) is a cake made with candied or chopped fresh fruit, nuts, and spices, and optionally soaked in liqueur. In some countries, versions are prepared topped with cream and decorated."
+    },
+    {
+        "id": "impossible-cake",
+        "kind": "cake",
+        "productName": "Impossible cake",
+        "price": 220,
+        "imgPath": "images/pastel-imposible.png",
+        "description": "Is made with a soft and fluffy chocolate cake, crafted with high-quality ingredients that enhance its flavor and texture. The Neapolitan flan topping, made with condensed milk, eggs, and vanilla, provides a contrasting creaminess and sweetness. Together, these two components create an irresistible combination."
+    },
+    {
+        "id": "dirty-cake",
+        "kind": "cake",
+        "productName": "Dirty cake",
+        "price": 150,
+        "imgPath": "images/pastel-seco.png",
+        "description": "A well-made dry cake is a delight in itself, characterized by a firm texture, a more compact crumb, and a lower perception of moisture. They are robust, structurally sound, and often have a more concentrated butter or flour flavor."
+    },
+    {
+        "id": "carrot-cake",
+        "kind": "cake",
+        "productName": "Carrot cake",
+        "price": 170,
+        "imgPath": "images/pastel-zanahoria.png",
+        "description": "It's a sweet cake with mashed carrots mixed into the batter. The carrots soften during baking, and the cake typically has a dense, moist texture. The carrots enhance the cake's flavor, texture, and appearance. Sometimes raisins are added to the batter."
+    },
+    {
+        "id": "chees-cake",
+        "kind": "cake",
+        "productName": "Chees cake",
+        "price": 120,
+        "imgPath": "images/pay-queso.png",
+        "description": "With a biscuit base, it's one of the easiest to prepare. We can make it either by adding gelatin to our cream cheese and cream mixture, or with rennet, if we're looking for a more intense flavor. Both should be chilled in the refrigerator for a few hours to achieve the ideal consistency and irresistible freshness."
+    },
+    {
+        "id": "red-velvet",
+        "kind": "cake",
+        "productName": "Red Velvet",
+        "price": 280,
+        "imgPath": "images/redvelvet.png",
+        "description": "Delicious chocolate bread with a velvety texture, topped and filled with cream cheese frosting to further enhance its unique flavor. Much loved for its spectacular taste and distinctive color."
+    }
+]
